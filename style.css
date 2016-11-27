@@ -1,3 +1,72 @@
+body{
+	margin:50px 0px;
+	padding : 0px;
+	font-family : Arial;
+	font-size : 12px;
+	text-align: center;
+}
 h1 {
     color: red;
+}
+
+#Content {
+    width:500px;
+    margin:0 auto;
+    text-align:left;
+    padding:15px;
+    border:1px dashed #333;
+    background-color:#eee;
+}
+
+#page-wrap {
+position: absolute;
+left: 50%;
+width: 600px;
+margin-left: -400px;
+}
+
+div {
+  width: 400px;
+  margin:0 auto;
+  text-align:left;
+  padding:0px;
+}
+ 
+h3 {
+  font: 70 40px/1.5 Helvetica, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+ 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ 
+li {
+  font: 150 20px/1.5 Helvetica, Verdana, sans-serif;
+  border-bottom: 1px solid #ccc;
+}
+ 
+li:last-child {
+  border: none;
+}
+ 
+li a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  width: 400px;
+ 
+  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+ 
+li a:hover {
+  font-size: 20px;
+  background: #f6f6f6;
 }
