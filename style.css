@@ -65,7 +65,9 @@ li a {
   -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
   transition: font-size 0.3s ease, background-color 0.3s ease;
 }
- 
+li p {
+  font: 200 12px/1.5 Georgia, Times New Roman, serif;
+}
 li a:hover {
   font-size: 20px;
   background: #f6f6f6;
